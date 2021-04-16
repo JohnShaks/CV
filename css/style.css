@@ -1,0 +1,233 @@
+/* Created by ShaksDesignsCode */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
+body {
+    background-color: black
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+
+/* hero section */
+
+.hero_section {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.hero_section h1 {
+    font-size: 50px;
+}
+
+.hero_section h2 {
+    font-size: 25px;
+}
+
+
+/* section 1 */
+
+.section_1 {
+    width: 40%;
+    background-color: #1D2839;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_1 .img img {
+    margin-left: 60px;
+    border-radius: 120px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .8);
+}
+
+.section_1 h2 {
+    color: #2974E2;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 35px;
+}
+
+.section_1 span {
+    color: #81efe2;
+    font-size: larger;
+}
+
+.section_1 p {
+    color: #fff;
+    font-size: larger;
+}
+
+
+/* contacts */
+
+.contacts .icon {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fas {
+    margin-right: 20px;
+}
+
+.phone p {
+    margin-right: 147px;
+}
+
+.mail p {
+    margin-right: 50px;
+}
+
+.address p {
+    margin-left: 13px;
+}
+
+
+/* skills */
+
+.skills .bars .level {
+    padding: 20px 0;
+}
+
+.skills .bars span {
+    font-weight: 600;
+}
+
+.section_1 .info .skills .bars .line {
+    height: 6px;
+    width: 100%;
+    background: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.section_1 .info .skills .bars .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: turquoise;
+    border-radius: 5px;
+}
+
+.section_1 .info .skills .bars .illustrator::before {
+    width: 90%;
+}
+
+.section_1 .info .skills .bars .xd::before {
+    width: 80%;
+}
+
+.section_1 .info .skills .bars .photoshop::before {
+    width: 40%;
+}
+
+.section_1 .info .skills .bars .html::before {
+    width: 80%;
+}
+
+.section_1 .info .skills .bars .css::before {
+    width: 70%;
+}
+
+.section_1 .info .skills .bars .microsoft::before {
+    width: 90%;
+}
+
+
+/* languages */
+
+.languages .bars .level {
+    padding: 20px 0;
+}
+
+.section_1 .info .languages .bars .line {
+    height: 6px;
+    width: 100%;
+    background: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.section_1 .info .languages .bars .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: turquoise;
+    border-radius: 5px;
+}
+
+.section_1 .info .languages .bars .english::before {
+    width: 90%;
+}
+
+.section_1 .info .languages .bars .yoruba::before {
+    width: 80%;
+}
+
+
+/* section 2 */
+
+.section_2 {
+    width: 60%;
+}
+
+.section_2 .head {
+    padding: 40px 30px;
+    padding-bottom: 5em;
+    background-color: #275fb3;
+}
+
+.section_2 h1 {
+    color: #fff;
+}
+
+.section_2 .front {
+    color: #81efe2;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+
+/* .content */
+
+.section_2 .content {
+    padding: 1em 30px;
+    padding-bottom: 3.9em;
+    background-color: #fff;
+}
+
+.section_2 .content h2 {
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.section_2 .content .icon {
+    display: flex;
+}
+
+.section_2 .content .fas {
+    font-size: 30px;
+    color: #2974E2;
+}
+
+.section_2 h3 {
+    padding: 10px 0;
+}
+
+.section_2 h4,
+p {
+    color: #626787;
+    font-size: larger;
+}
